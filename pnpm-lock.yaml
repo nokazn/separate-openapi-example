@@ -1,0 +1,54 @@
+lockfileVersion: 5.4
+
+specifiers:
+  swagger-merger: ^1.5.4
+
+dependencies:
+  swagger-merger: 1.5.4
+
+packages:
+
+  /argparse/2.0.1:
+    resolution: {integrity: sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==}
+    dev: false
+
+  /async/3.2.4:
+    resolution: {integrity: sha512-iAB+JbDEGXhyIUavoDl9WP/Jj106Kz9DEn1DPgYw5ruDn0e3Wgi3sKFm55sASdGBNOQB8F59d9qQ7deqrHA8wQ==}
+    dev: false
+
+  /co/4.6.0:
+    resolution: {integrity: sha512-QVb0dM5HvG+uaxitm8wONl7jltx8dqhfU33DcqtOZcLSVIKSDDLDi7+0LbAKiyI8hD9u42m2YxXSkMGWThaecQ==}
+    engines: {iojs: '>= 1.0.0', node: '>= 0.12.0'}
+    dev: false
+
+  /commander/9.4.0:
+    resolution: {integrity: sha512-sRPT+umqkz90UA8M1yqYfnHlZA7fF6nSphDtxeywPZ49ysjxDQybzk13CL+mXekDRG92skbcqCLVovuCusNmFw==}
+    engines: {node: ^12.20.0 || >=14}
+    dev: false
+
+  /fmtconv/1.1.0:
+    resolution: {integrity: sha512-UV++K2xqeZBNRsVrhNjepbrHfMw3zfLArbciTs+eQmMPl635xbWaxnoOAZsvvsssAsfUnuL2S8Z7b+rC8obICw==}
+    engines: {node: '>=12.22'}
+    hasBin: true
+    dependencies:
+      commander: 9.4.0
+      js-yaml: 4.1.0
+    dev: false
+
+  /js-yaml/4.1.0:
+    resolution: {integrity: sha512-wpxZs9NoxZaJESJGIZTyDEaYpl0FKSA+FB9aJiyemKhMwkxQg63h4T1KJgUGHpTqPDNRcmmYLugrRjJlBtWvRA==}
+    hasBin: true
+    dependencies:
+      argparse: 2.0.1
+    dev: false
+
+  /swagger-merger/1.5.4:
+    resolution: {integrity: sha512-hdNDtg3mecF1e4/3q5P9CquHrez+rQdklwN8itQ8gVVWiugmzlRwoLu/kgNytSlkIYQ4ajjiA7L86XqRfW/QQQ==}
+    engines: {node: '>=12.22'}
+    hasBin: true
+    dependencies:
+      async: 3.2.4
+      co: 4.6.0
+      commander: 9.4.0
+      fmtconv: 1.1.0
+    dev: false
